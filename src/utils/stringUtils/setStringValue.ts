@@ -2,7 +2,7 @@ import isString from './isString'
 
 /**
  * Set input if value is string then set in instead of set in default value
- * @since v1.0.4
+ * @since v0.0.1
  * @category String
  * @param value
  * @param defaultValue

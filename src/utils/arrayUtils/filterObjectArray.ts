@@ -1,6 +1,6 @@
 /**
  * Filter the target object in the object array
- * @since v1.0.4
+ * @since vx.x.x
  * @category Array
  * @param list
  * @param object

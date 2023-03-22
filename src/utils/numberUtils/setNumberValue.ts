@@ -2,7 +2,7 @@ import isNumber from './isNumber'
 
 /**
  * Converts a value to a number, if possible, otherwise returns the default value.
- * @since v1.0.0
+ * @since v0.0.1
  * @category Number
  * @param value - The value to be converted to a number.
  * @param defaultValue - The default value to be returned if the value cannot be converted to a number.

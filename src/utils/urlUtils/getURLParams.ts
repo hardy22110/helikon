@@ -3,7 +3,7 @@ import { isString } from '../stringUtils'
  * Get the parameters and values from the URL and return them as a parameter object.
  * returns empty object if unresolvable path.
  * this parameter is ignored if the parameter cannot be parsed.
- * @since v1.0.4
+ * @since v0.0.1
  * @category URL
  * @param {string} url - URL
  * @returns {Record<string, string> } Parameter - URL Parameter
