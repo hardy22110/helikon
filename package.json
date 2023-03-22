@@ -1,6 +1,6 @@
 {
   "name": "app-toolkit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This is a tool for JavaScript development",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
