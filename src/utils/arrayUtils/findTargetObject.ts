@@ -3,7 +3,7 @@
  * It will try to find an object in the list that matches the properties of the target object.
  * If a match is found, it returns the matching object and its index in the list,
  * otherwise it returns undefined and -1.
- * @since v1.0.4
+ * @since v0.0.1
  * @category Array
  * @param objectArray An array of objects, where each object represents a record with key-value pairs.
  * @param target An object representing the record to be searched in the list.

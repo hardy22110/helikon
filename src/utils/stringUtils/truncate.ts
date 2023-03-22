@@ -2,7 +2,7 @@ import isString from './isString'
 
 /**
  * Truncates a string to the specified maximum length
- * @since v1.0.4
+ * @since v0.0.1
  * @category String
  * @param str The string to truncate.
  * @param maxLength The maximum string length.

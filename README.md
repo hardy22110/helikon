@@ -1,6 +1,6 @@
 # app-toolkit
 
-This is a tool for JavaScript development
+This library is a collection of commonly used JavaScript functions that have been wrapped for easy use in your projects.
 
 ## Installation
 
@@ -9,6 +9,8 @@ npm install app-toolkit
 ```
 
 ## Usage
+
+Using this library is simple. Simply import the desired function(s) into your code and use them as needed.
 
 ```typescript
 import { getVersion } from 'app-toolkit'

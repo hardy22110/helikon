@@ -1,6 +1,6 @@
 /**
  * The input is a string
- * @since v1.0.4
+ * @since v0.0.1
  * @category String
  * @param  value - The string to truncate.
  * @returns value is string

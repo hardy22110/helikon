@@ -1,6 +1,6 @@
 /**
  * Checks if the value is a number after conversion to a number.
- * @since v1.0.0
+ * @since v0.0.1
  * @category Number
  * @param value - The value to be checked
  * @returns A boolean indicating whether the value is a number or not
