@@ -1,21 +1,36 @@
-# app-toolkit
+# This library contains JavaScript functions commonly used in projects, wrapped for convenient use.
 
-This library is a collection of commonly used JavaScript functions that have been wrapped for easy use in your projects.
-
+--- 
 ## Installation
+
+- Using npm:
 
 ```
 npm install app-toolkit
 ```
 
+- Using CDN
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/app-toolkit"></script>
+```
+
 ## Usage
 
-Using this library is simple. Simply import the desired function(s) into your code and use them as needed.
+- Once the package is installed, you can import the library using import:
 
 ```typescript
 import { getVersion } from 'app-toolkit'
 
 console.log('app-toolkit version ', getVersion())
+```
+
+-  Using CDN (ES5 UMD browser module):
+
+```html
+<script>
+  console.log('appToolkit', appToolkit.getVersion())
+</script>
 ```
 
 ## documentation
