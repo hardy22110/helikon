@@ -1,7 +1,7 @@
 {
   "name": "app-toolkit",
-  "version": "0.0.1",
-  "description": "This is a tool for JavaScript development",
+  "version": "0.0.2",
+  "description": "This library contains JavaScript functions commonly used in projects, wrapped for convenient use.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
@@ -40,6 +40,7 @@
     "@babel/preset-typescript": "^7.21.0",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.4.0",
     "@types/jest": "^29.4.0",

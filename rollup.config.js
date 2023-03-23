@@ -3,6 +3,8 @@ import babel from '@rollup/plugin-babel'
 import terser from '@rollup/plugin-terser'
 import commonjs from '@rollup/plugin-commonjs'
 import resolve from '@rollup/plugin-node-resolve'
+import json from '@rollup/plugin-json'
+
 
 export default {
   input: 'src/index.ts',
@@ -24,7 +26,7 @@ export default {
       declarationDir: 'dist',
       tsconfig: 'tsconfig.json',
       tsconfigOverride: {
-        include: ['src/**/*.ts'],
+        include: ['src/**/index.ts'],
         exclude: ['tests/**/*.ts']
       }
     }),
@@ -36,6 +38,7 @@ export default {
     }),
     terser(),
     resolve(),
-    commonjs()
+    commonjs(),
+    json()
   ]
 }

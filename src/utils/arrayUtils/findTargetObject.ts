@@ -1,6 +1,6 @@
 /**
- * This function receives a list of objects and a target object.
- * It will try to find an object in the list that matches the properties of the target object.
+ * This function receives a list of objects and a target object. </br>
+ * It will try to find an object in the list that matches the properties of the target object. </br>
  * If a match is found, it returns the matching object and its index in the list,
  * otherwise it returns undefined and -1.
  * @since v0.0.1
