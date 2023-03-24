@@ -9,8 +9,8 @@
  * @param target An object representing the record to be searched in the list.
  * @returns If the target object is found, the function returns a tuple with the matching object and its index in the list.
  * If the target object is not found, the function returns a tuple with undefined and -1.
- * @example
  *
+ * @example
  * // find an object in the list
  * const exampleListA = [{ ID: 1, label: 'label1' }, { ID: 2, label: 'label2' }]
  * console.log(
@@ -30,18 +30,14 @@ export default function findTargetObject<T extends Record<string, any>>(
   objectArray: T[],
   target: Record<string, any>
 ): [T, number] | [undefined, -1] {
-  const notFoundTarget: [undefined, -1] = [undefined, -1]
   try {
-    if (Object.keys(target).length === 0) {
-      return notFoundTarget
-    }
-    const targetIndex = objectArray.findIndex((item) =>
-      Object.keys(target).every((key) => target[key] === item[key])
+    const targetIndex = objectArray.findIndex(
+      (item) =>
+        Object.keys(target).length > 0 &&
+        Object.keys(target).every((key) => target[key] === item[key])
     )
-    return targetIndex !== -1
-      ? [objectArray[targetIndex], targetIndex]
-      : notFoundTarget
+    return [objectArray[targetIndex], targetIndex]
   } catch {
-    return notFoundTarget
+    return [undefined, -1]
   }
 }
