@@ -36,7 +36,7 @@ console.log('app-toolkit version ', getVersion())
 
 ## documentation
 
-[app-toolkit website](https://hardy22110.github.io/app-toolkit/)
+[website](https://hardy22110.github.io/app-toolkit/)
 
 ## License
 
