@@ -1,6 +1,6 @@
 {
   "name": "app-toolkit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This library contains JavaScript functions commonly used in projects, wrapped for convenient use.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -11,7 +11,7 @@
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
-    "docs": "typedoc --tsconfig tsconfig.json --out docs --entryPoints src/index.ts",
+    "docs": "typedoc --tsconfig tsconfig.json --out docs --entryPoints src/index.ts --disableSources --hideGenerator",
     "lint": "eslint --ext .ts . && prettier --write \"./**/*.ts\""
   },
   "repository": {

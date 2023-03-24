@@ -1,6 +1,7 @@
-# This library contains JavaScript functions commonly used in projects, wrapped for convenient use.
+## Description
 
---- 
+This library contains JavaScript functions commonly used in projects, wrapped for convenient use.
+
 ## Installation
 
 - Using npm:
@@ -35,7 +36,7 @@ console.log('app-toolkit version ', getVersion())
 
 ## documentation
 
-[app-toolkit website](https://hardy22110.github.io/app-toolkit/)
+[website](https://hardy22110.github.io/app-toolkit/)
 
 ## License
 
