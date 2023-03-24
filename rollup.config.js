@@ -5,20 +5,28 @@ import commonjs from '@rollup/plugin-commonjs'
 import resolve from '@rollup/plugin-node-resolve'
 import json from '@rollup/plugin-json'
 
-
 export default {
   input: 'src/index.ts',
   output: [
     {
       file: 'dist/index.js',
       format: 'umd',
-      name: 'appToolkit'
+      name: 'appToolkit',
+      banner: `/*!
+      * app-toolkit v1.0.0
+      * (c) 2023 Hardy
+      * Released under the MIT License.
+      */`
     },
     {
       file: 'dist/index.esm.js',
       format: 'es',
       name: 'appToolkit',
-      sourcemap: false
+      banner: `/*!
+      * app-toolkit v1.0.0
+      * (c) 2023 Hardy
+      * Released under the MIT License.
+      */`
     }
   ],
   plugins: [
