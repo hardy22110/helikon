@@ -25,11 +25,10 @@ npm install helikon
 - Once the package is installed, you can import the library using import:
 
 ```typescript
-import { getVersion, numberUtils } from 'helikon'
+import { getVersion } from 'helikon'
 
 console.log('helikon version ', getVersion())
 
-console.log(`'asd' is a number?`, numberUtils.isNumber('asd'))
 ```
 
 -  Using CDN (ES5 UMD browser module):
@@ -40,7 +39,7 @@ console.log(`'asd' is a number?`, numberUtils.isNumber('asd'))
 </script>
 ```
 
-## Example
+<!-- ## Example
 - Is it a number that you're entering? (Using React.js)
 ```tsx
 import React, { useState } from 'react'
@@ -64,7 +63,7 @@ function App() {
 }
 
 export default App
-```
+``` -->
 
 ## documentation
 

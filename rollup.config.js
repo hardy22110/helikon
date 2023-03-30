@@ -13,7 +13,7 @@ export default {
       format: 'umd',
       name: 'appToolkit',
       banner: `/*!
-      * app-toolkit v1.0.0
+      * helikon v0.0.0
       * (c) 2023 Hardy
       * Released under the MIT License.
       */`
@@ -23,7 +23,7 @@ export default {
       format: 'es',
       name: 'appToolkit',
       banner: `/*!
-      * app-toolkit v1.0.0
+      * helikon v0.0.0
       * (c) 2023 Hardy
       * Released under the MIT License.
       */`
