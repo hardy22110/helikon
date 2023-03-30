@@ -10,7 +10,7 @@ describe('setNumberValue', () => {
   })
 
   it(`call setNumberValue(1) returns 1`, () => {
-    expect(setNumberValue(1)).toBe(1)
+    expect(setNumberValue(1, undefined)).toBe(1)
   })
 
   it(`call setNumberValue(0, 2) returns 0`, () => {
@@ -18,10 +18,10 @@ describe('setNumberValue', () => {
   })
 
   it(`call setNumberValue('') returns undefined`, () => {
-    expect(setNumberValue('')).toBe(undefined)
+    expect(setNumberValue('', undefined)).toBe(undefined)
   })
 
   it(`call setNumberValue(1.111) returns 1.111`, () => {
-    expect(setNumberValue(1.111)).toBe(1.111)
+    expect(setNumberValue(1.111, undefined)).toBe(1.111)
   })
 })
