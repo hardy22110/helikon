@@ -23,10 +23,7 @@ import isString from './isString'
  * )
  * => ''
  */
-export default function setStringValue<T>(
-  value: T,
-  defaultValue?: string
-): T | string | undefined {
+export default function setStringValue<V, D>(value: V, defaultValue: D): V | D {
   if (isString(value)) {
     return value
   }
