@@ -34,7 +34,7 @@ export default {
       declarationDir: 'dist',
       tsconfig: 'tsconfig.json',
       tsconfigOverride: {
-        include: ['src/**/index.ts'],
+        include: ['src/index.ts'],
         exclude: ['tests/**/*.ts']
       }
     }),

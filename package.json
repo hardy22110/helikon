@@ -1,6 +1,6 @@
 {
   "name": "helikon",
-  "version": "0.0.3",
+  "version": "0.0.0",
   "description": "This library contains JavaScript functions commonly used in projects, wrapped for convenient use.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
