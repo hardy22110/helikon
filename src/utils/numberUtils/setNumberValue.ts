@@ -30,10 +30,10 @@ import isNumber from './isNumber'
  * )
  * => undefined
  */
-export default function setNumberValue<T>(
-  value: T,
-  defaultValue?: number
-): number | undefined {
+export default function setNumberValue<V, D>(
+  value: V,
+  defaultValue: D
+): number | D {
   if (isNumber(value)) {
     return Number(value)
   }
