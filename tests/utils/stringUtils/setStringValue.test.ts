@@ -1,4 +1,4 @@
-import { setStringValue } from '@/utils/stringUtils'
+import setStringValue from '@/utils/stringUtils/setStringValue'
 
 describe('setStringValue', () => {
   it('should return converted string when value is string', () => {
@@ -17,6 +17,6 @@ describe('setStringValue', () => {
     expect(setStringValue(42, 'default')).toBe('default')
   })
   it('should return undefined when defaultStringValue is undefined', () => {
-    expect(setStringValue(42)).toBeUndefined()
+    expect(setStringValue(42, undefined)).toBeUndefined()
   })
 })

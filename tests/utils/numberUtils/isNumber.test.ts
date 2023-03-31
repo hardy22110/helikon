@@ -1,4 +1,4 @@
-import { isNumber } from '@/utils/numberUtils'
+import isNumber from '@/utils/numberUtils/isNumber'
 
 describe('isNumber', () => {
   it(`call isNumber('1') return true`, () => {

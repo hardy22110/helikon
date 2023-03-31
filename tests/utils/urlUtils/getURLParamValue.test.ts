@@ -1,4 +1,4 @@
-import { getURLParamValue } from '@/utils/urlUtils'
+import getURLParamValue from '@/utils/urlUtils/getURLParamValue'
 
 describe('getURLParamValue', () => {
   it('getURLParamValue returns correct value for alphanumeric parameter', () => {

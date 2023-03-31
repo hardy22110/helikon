@@ -1,4 +1,4 @@
-import { truncate } from '@/utils/stringUtils'
+import truncate from '@/utils/stringUtils/truncate'
 
 describe('truncate', () => {
   it('returns empty string when input is an empty string', () => {

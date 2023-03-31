@@ -11,9 +11,9 @@ export default {
     {
       file: 'dist/index.js',
       format: 'umd',
-      name: 'appToolkit',
+      name: 'helikon',
       banner: `/*!
-      * helikon v0.0.0
+      * helikon v0.0.1
       * (c) 2023 Hardy
       * Released under the MIT License.
       */`
@@ -21,9 +21,9 @@ export default {
     {
       file: 'dist/index.esm.js',
       format: 'es',
-      name: 'appToolkit',
+      name: 'helikon',
       banner: `/*!
-      * helikon v0.0.0
+      * helikon v0.0.1
       * (c) 2023 Hardy
       * Released under the MIT License.
       */`

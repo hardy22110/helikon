@@ -2,7 +2,7 @@
  * Generates a random UUID (v4) using the `crypto` API. <br />
  * If the environment does not support the `crypto.randomUUID` method, a random UUID string
  * is generated using the `crypto.getRandomValues` method.
- * @since vx.x.x
+ * @since v0.0.1
  * @category Generate
  * @returns {string} The generated UUID.
  *
