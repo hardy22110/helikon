@@ -22,24 +22,32 @@ npm install helikon
 
 ## Usage
 
-- Once the package is installed, you can import the library using import:
+- Once the package is installed, you can import the library using import (esm):
 
 ```typescript
 import { getVersion } from 'helikon'
 
 console.log('helikon version ', getVersion())
-
 ```
 
--  Using CDN (ES5 UMD browser module):
+- Using CDN (ES5 UMD browser module):
 
 ```html
 <script>
-  console.log('appToolkit', appToolkit.getVersion())
+  console.log('helikon', helikon.getVersion())
 </script>
 ```
 
-<!-- ## Example
+## Category
+
+- [stringUtils](./modules/stringUtils.html) 
+- [numberUtils](./modules/numberUtils.html)  
+- [urlUtils](./modules/urlUtils.html)  
+- [arrayUtils](./modules/arrayUtils.html)  
+- [generateUtils](./modules/generateUtils.html)  
+- [promiseUtils](./modules/promiseUtils.html)  
+
+## Example
 - Is it a number that you're entering? (Using React.js)
 ```tsx
 import React, { useState } from 'react'
@@ -63,7 +71,7 @@ function App() {
 }
 
 export default App
-``` -->
+```
 
 ## documentation
 

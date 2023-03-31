@@ -1,6 +1,6 @@
 {
   "name": "helikon",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This library contains JavaScript functions commonly used in projects, wrapped for convenient use.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -24,7 +24,8 @@
     "common",
     "library",
     "kit",
-    "toolkit"
+    "toolkit",
+    "modules"
   ],
   "author": "Hardy",
   "license": "MIT",

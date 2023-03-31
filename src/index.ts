@@ -1,7 +1,9 @@
-// import * as arrayUtils from './utils/arrayUtils'
-// import * as stringUtils from './utils/stringUtils'
-// import * as numberUtils from './utils/numberUtils'
-// import * as urlUtils from './utils/urlUtils'
+import * as arrayUtils from './utils/arrayUtils'
+import * as stringUtils from './utils/stringUtils'
+import * as numberUtils from './utils/numberUtils'
+import * as urlUtils from './utils/urlUtils'
+import * as generateUtils from './utils/generateUtils'
+import * as promiseUtils from './utils/promiseUtils'
 import { version } from '../package.json'
 
 /**
@@ -17,4 +19,13 @@ import { version } from '../package.json'
  */
 export function getVersion(): string {
   return `v${version}`
+}
+
+export {
+  arrayUtils,
+  stringUtils,
+  numberUtils,
+  urlUtils,
+  generateUtils,
+  promiseUtils
 }
