@@ -40,12 +40,12 @@ console.log('helikon version ', getVersion())
 
 ## Category
 
-- [stringUtils](./modules/stringUtils.html) 
-- [numberUtils](./modules/numberUtils.html)  
-- [urlUtils](./modules/urlUtils.html)  
-- [arrayUtils](./modules/arrayUtils.html)  
-- [generateUtils](./modules/generateUtils.html)  
-- [promiseUtils](./modules/promiseUtils.html)  
+- [stringUtils](https://hardy22110.github.io/helikon/modules/stringUtils.html) 
+- [numberUtils](https://hardy22110.github.io/helikon/modules/numberUtils.html)  
+- [urlUtils](https://hardy22110.github.io/helikon/modules/urlUtils.html)  
+- [arrayUtils](https://hardy22110.github.io/helikon/modules/arrayUtils.html)  
+- [generateUtils](https://hardy22110.github.io/helikon/modules/generateUtils.html)  
+- [promiseUtils](https://hardy22110.github.io/helikon/modules/promiseUtils.html)  
 
 ## Example
 - Is it a number that you're entering? (Using React.js)
