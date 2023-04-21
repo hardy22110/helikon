@@ -38,25 +38,16 @@ console.log('helikon version ', getVersion())
 </script>
 ```
 
-## Category
-
-- [stringUtils](https://hardy22110.github.io/helikon/modules/stringUtils.html) 
-- [numberUtils](https://hardy22110.github.io/helikon/modules/numberUtils.html)  
-- [urlUtils](https://hardy22110.github.io/helikon/modules/urlUtils.html)  
-- [arrayUtils](https://hardy22110.github.io/helikon/modules/arrayUtils.html)  
-- [generateUtils](https://hardy22110.github.io/helikon/modules/generateUtils.html)  
-- [promiseUtils](https://hardy22110.github.io/helikon/modules/promiseUtils.html)  
-
 ## Example
 - Is it a number that you're entering? (Using React.js)
 ```tsx
 import React, { useState } from 'react'
-import { numberUtils } from 'helikon'
+import { utils } from 'helikon'
 
 function App() {
   const [value, setValue] = useState<string>('')
   // Is the current value a number
-  const valueNumberStatus = numberUtils.isNumber(value) ? 'is a number' : 'not a number'
+  const valueNumberStatus = utils.isNumber(value) ? 'is a number' : 'not a number'
   return (
     <>
       <input
