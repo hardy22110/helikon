@@ -1,4 +1,4 @@
-import { version } from '../package.json'
+declare const __VERSION__: string
 
 /**
  * @since 0.0.0
@@ -12,7 +12,7 @@ import { version } from '../package.json'
  * => 'v0.0.0'
  */
 export function getVersion(): string {
-  return `v${version}`
+  return `v${__VERSION__}`
 }
 
 export * as utils from './utils'

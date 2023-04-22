@@ -1,10 +1,10 @@
-import typescript from 'rollup-plugin-typescript2'
+import typescript from '@rollup/plugin-typescript'
 import babel from '@rollup/plugin-babel'
 import terser from '@rollup/plugin-terser'
 import commonjs from '@rollup/plugin-commonjs'
 import resolve from '@rollup/plugin-node-resolve'
-import json from '@rollup/plugin-json'
 import { readFileSync } from 'fs'
+import replace from '@rollup/plugin-replace'
 
 // Read package.json file
 const pkg = JSON.parse(readFileSync('./package.json', 'utf-8'))
@@ -37,12 +37,7 @@ export default {
   ],
   plugins: [
     typescript({
-      declarationDir: 'dist',
-      tsconfig: 'tsconfig.json',
-      tsconfigOverride: {
-        include: ['src/index.ts'],
-        exclude: ['tests/**/*.ts']
-      }
+      exclude: ['**/*.test.ts']
     }),
     babel({
       extensions: ['.js', '.ts'],
@@ -53,6 +48,9 @@ export default {
     terser(),
     resolve(),
     commonjs(),
-    json()
+    replace({
+      preventAssignment: true,
+      __VERSION__: JSON.stringify(pkg.version)
+    })
   ]
 }
