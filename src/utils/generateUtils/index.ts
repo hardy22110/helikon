@@ -1,3 +1,1 @@
-import randomUUID from './randomUUID'
-
-export { randomUUID }
+export { default as randomUUID } from './randomUUID'

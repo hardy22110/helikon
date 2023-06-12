@@ -1,4 +1,2 @@
-import isString from './isString'
-import setStringValue from './setStringValue'
-
-export { isString, setStringValue }
+export { default as isString } from './isString'
+export { default as setStringValue } from './setStringValue'

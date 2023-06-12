@@ -1,4 +1,2 @@
-import isNumber from './isNumber'
-import setNumberValue from './setNumberValue'
-
-export { isNumber, setNumberValue }
+export { default as isNumber } from './isNumber'
+export { default as setNumberValue } from './setNumberValue'

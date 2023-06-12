@@ -1,3 +1,1 @@
-import findTargetObject from './findTargetObject'
-
-export { findTargetObject }
+export { default as findTargetObject } from './findTargetObject'
