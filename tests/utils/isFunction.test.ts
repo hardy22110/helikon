@@ -1,4 +1,4 @@
-import isFunction from '@/utils/functionUtils/isFunction'
+import isFunction from '@/utils/isFunction'
 
 describe('isFunction', () => {
   test('returns true if input is a function', () => {

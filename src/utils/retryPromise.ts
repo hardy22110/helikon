@@ -1,5 +1,5 @@
 import delay from './delay'
-import setNumberValue from '../numberUtils/setNumberValue'
+import setNumberValue from './setNumberValue'
 /**
  * Execute the Promise repeatedly if the result is a failure.
  * - Return immediately when successful, or delay execution for a certain number of seconds before executing again until reaching the maximum number of repetitions.

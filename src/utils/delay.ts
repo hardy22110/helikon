@@ -1,4 +1,4 @@
-import setNumberValue from '@/utils/numberUtils/setNumberValue'
+import setNumberValue from '@/utils/setNumberValue'
 /**
  * Delays the execution of the function by the given amount of time.
  * If the given time is less than zero, the function resolves after 0 seconds.

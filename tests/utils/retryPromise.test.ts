@@ -1,4 +1,4 @@
-import retryPromise from '@/utils/promiseUtils/retryPromise'
+import retryPromise from '@/utils/retryPromise'
 
 describe('retryPromise', () => {
   // Mock successful promise function

@@ -1,4 +1,4 @@
-import setNumberValue from '@/utils/numberUtils/setNumberValue'
+import setNumberValue from '@/utils/setNumberValue'
 
 describe('setNumberValue', () => {
   it(`call setNumberValue(null, 0) returns 0`, () => {
