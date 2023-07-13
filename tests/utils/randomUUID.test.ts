@@ -1,4 +1,4 @@
-import randomUUID from '@/utils/generateUtils/randomUUID'
+import randomUUID from '@/utils/randomUUID'
 // create mock crypto
 const mockCrypto = {
   getRandomValues: jest.fn().mockImplementation((buffer) => {

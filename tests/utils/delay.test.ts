@@ -1,4 +1,4 @@
-import delay from '@/utils/promiseUtils/delay'
+import delay from '@/utils/delay'
 
 describe('delay', () => {
   test('delay should return a Promise', () => {

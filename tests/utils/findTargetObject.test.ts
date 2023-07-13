@@ -1,4 +1,4 @@
-import findTargetObject from '@/utils/arrayUtils/findTargetObject'
+import findTargetObject from '@/utils/findTargetObject'
 
 describe('findTargetObject', () => {
   const list = [

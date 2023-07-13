@@ -1,4 +1,4 @@
-import getBaseURL from '@/utils/urlUtils/getBaseURL'
+import getBaseURL from '@/utils/getBaseURL'
 
 describe('getBaseURL', () => {
   test('returns the base URL for a URL with query parameters', () => {
