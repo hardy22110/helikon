@@ -1,4 +1,4 @@
-import filterObjectArray from '@/utils/arrayUtils/filterObjectArray'
+import filterObjectArray from '@/utils/filterObjectArray'
 
 describe('filterObjectArray', () => {
   const objectList = [

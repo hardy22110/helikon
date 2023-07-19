@@ -1,4 +1,4 @@
-import isString from '../stringUtils/isString'
+import isString from './isString'
 /**
  * Get the parameters and values from the URL and return them as a parameter object.
  * returns empty object if unresolvable path.

@@ -1,4 +1,4 @@
-import isString from '@/utils/stringUtils/isString'
+import isString from '@/utils/isString'
 
 /**
  * Get the base URL without any query parameters or hash fragments. <br />

@@ -1,4 +1,4 @@
-import setStringValue from '@/utils/stringUtils/setStringValue'
+import setStringValue from '@/utils/setStringValue'
 
 describe('setStringValue', () => {
   it('should return converted string when value is string', () => {

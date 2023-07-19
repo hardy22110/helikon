@@ -1,4 +1,4 @@
-import isString from '@/utils/stringUtils/isString'
+import isString from '@/utils/isString'
 
 describe('isString', () => {
   it('should return true if value is a string', () => {

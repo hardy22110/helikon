@@ -1,4 +1,4 @@
-import getURLParams from '@/utils/urlUtils/getURLParams'
+import getURLParams from '@/utils/getURLParams'
 
 describe('getURLParams', () => {
   it('should parse params correctly', () => {
